@@ -11,9 +11,12 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  position: relative;
 }
 
 .timer {
+  position: absolute;
+  top: 200px;
   font-family: "digital-7", monospace;
   color: red;
   font-size: 200px;
@@ -23,7 +26,7 @@ video.video {
   max-width: 90vw;
   max-height: 50vh;
   display: none;
-  margin-top: 20px;
+  margin-top: 200px;
 }
 
 #startBtn {
@@ -34,4 +37,10 @@ video.video {
   border-radius: 20px;
   background-color: rgb(190, 190, 190);
   color: rgb(81, 81, 81);
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+#startBtn:hover {
+  background-color: rgb(160, 160, 160);
 }
