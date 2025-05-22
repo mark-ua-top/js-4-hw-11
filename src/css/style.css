@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "digital-7";
+  src: url("../add/digital-7.ttf") format("truetype");
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.timer {
+  font-family: "digital-7", monospace;
+  color: red;
+  font-size: 200px;
+}
+
+video.video {
+  max-width: 90vw;
+  max-height: 50vh;
+  display: none;
+  margin-top: 20px;
+}
+
+#startBtn {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: rgb(190, 190, 190);
+  color: rgb(81, 81, 81);
+}

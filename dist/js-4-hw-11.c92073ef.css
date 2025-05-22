@@ -1,0 +1,38 @@
+@font-face {
+  font-family: digital-7;
+  src: url("digital-7.ffa14c65.ttf") format("truetype");
+}
+
+body {
+  background-color: #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.timer {
+  color: red;
+  font-family: digital-7, monospace;
+  font-size: 200px;
+}
+
+video.video {
+  max-width: 90vw;
+  max-height: 50vh;
+  margin-top: 20px;
+  display: none;
+}
+
+#startBtn {
+  cursor: pointer;
+  color: #515151;
+  background-color: #bebebe;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 24px;
+}
+/*# sourceMappingURL=js-4-hw-11.c92073ef.css.map */
